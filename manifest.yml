@@ -1,0 +1,8 @@
+applications:
+- path: target/JavaHelloWorldApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: gaiotto test 1 (Java   Watson)
+  host: gaiottotest1
+  disk_quota: 1024M
